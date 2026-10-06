@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.vercel/
+# secrets
+.env
+.env.*
+!.env.example
+# local SQLite database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
